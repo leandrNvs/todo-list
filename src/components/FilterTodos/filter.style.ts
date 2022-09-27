@@ -8,6 +8,10 @@ export const ButtonGroup = styled.div`
    display: flex;
    align-items: center;
    gap: 1.6rem;
+
+   @media (max-width: 400px) {
+      gap: 0.5rem;
+   }
 `;
 
 export const Button = styled.button(

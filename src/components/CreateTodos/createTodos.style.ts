@@ -13,6 +13,11 @@ export const TodosInput = styled.input`
    width: 350px;
    color: #626262;
 
+   @media (max-width: 500px) {
+      width: 100%;
+      font-size: 1.5rem;
+   }
+
    &:focus {
       border-color: dodgerblue;
    }

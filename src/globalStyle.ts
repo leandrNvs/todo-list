@@ -31,4 +31,10 @@ export const Container = styled.div`
    border-radius: 4px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
    padding: 1rem 4rem;
+
+   @media (max-width: 400px) {
+      margin: 2rem auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+   }
 `;

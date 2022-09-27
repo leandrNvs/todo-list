@@ -42,6 +42,10 @@ export const IconContainer = styled.div`
 export const Icon = styled.span`
    cursor: pointer;
 
+   &:last-child {
+      margin-right: 1rem;
+   }
+
    &:hover {
       color: dodgerblue;
    }
